@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    font-family: 'Pretendard-Regular';
+}
+
+img {
+    vertical-align: bottom;
+}
+
+section {
+    width: 1280px;
+}
+
+h1 {
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: 1920px;
+    height: 900px;
+    top: 2px;
+    margin-bottom: 80px;
+    background-color: #F2E9D8;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header > section > article > h1 {
+    width: 695px;
+    height: 120px;
+}
+header > section > article > p {
+    width: 420px;
+    height: 86px;
+}
+header > section img {
+    margin-bottom: -32px;
+}
+
+nav {
+    width: 1280px;
+    height: 102px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button {
+    margin-left: 19px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+}
+main strong {
+    color: #D97652;
+}
+
+main img {
+    border-radius: 30px;
+}
+
+main section:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+main section:nth-child(1) h2 {
+    width: 510px;
+    height: 135px;
+}
+main section:nth-child(1) p{
+    width: 510px;
+    height: 40px;
+}
+
+main section:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 68px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #C4C4C4;
+}
+main section:nth-child(2) h1 {
+    color: #D97652;
+    text-align: center;
+}
+main section:nth-child(2)  p {
+    width: 710px;
+    height: 42px;
+    text-align: center;
+}
+
+main section:nth-child(2) article:nth-child(2) {
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main section:nth-child(2) article:nth-child(2) img {
+    width: 378px;
+    height: 378px;
+}
+main section:nth-child(3) {
+    margin-bottom: 80px;
+}
+main section:nth-child(4) {
+    height: 201px;
+    border-radius: 30px;
+    color: white;
+    background-color: #263140;
+}
+main section:nth-child(4) > article:first-child h2 {
+    width: 448px;
+    height: 45px;
+}
+main section:nth-child(4) > article:first-child p {
+    width: 471px;
+    height: 36px;
+}
+main section:nth-child(4) > article:last-child{
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    color: #767676;
+    font-size: 16px;
+    align-self: center;
+    vertical-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    z-index: 0;
+}
+footer section:first-child {
+    width: 1920px;
+}
+
+footer li > img{
+    width: 42px;
+    height: 42px;
+}
+.align_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.align_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.align_row_around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.align_column_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_menu, .bottom_menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_menu > li {
+    margin-left: 30px;
+}
+.bottom_menu > li {
+    margin-left: 20px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+
+    border-radius: 40px;
+    border-color: #D97652;
+    background-color: #D97652;
+    border-collapse: collapse;
+}
